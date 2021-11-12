@@ -1,4 +1,4 @@
-# GCAT Multizone VPC With Bastion Subnet
+# Multi-zone VPC with bastion using subnet
 
 This module uses the [gcat-multitier-vpc](https://github.com/Cloud-Schematics/gcat-multitier-vpc) as a template to create a multizone VPC with a bastion subnet in one zone.
 
