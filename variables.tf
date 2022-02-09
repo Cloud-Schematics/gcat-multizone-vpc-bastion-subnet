@@ -5,7 +5,7 @@
 
 # Uncomment this variable if running locally
 variable ibmcloud_api_key {
-  description = "The IBM Cloud platform API key needed to deploy IAM enabled resources"
+  description = "The IBM Cloud platform API key needed to deploy IAM enabled resources. Enter the respective ibmcloud_api_key of your specific account details"
   type        = string
   sensitive   = true
 }
@@ -35,7 +35,7 @@ variable region {
 }
 
 variable resource_group {
-    description = "Name of resource group where all infrastructure will be provisioned"
+    description = "Name of resource group where all infrastructure will be provisioned. Enter the name respective resource_group of your specific account details. Can run `ibmcloud resource groups` in CLI to get details"
     type        = string
     default     = "asset-development"
 
